@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./js/index.js" defer></script>
+  <script src="js/math.js" defer></script>
+  <script src="js/color.js" defer></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1>JavaScript Demo</h1>
+  <div id="math-section">
+    <button onclick='doMathOne()'>Do Math 1</button>
+    <button onclick='doMathTwo()'>Do Math 2</button>
+    <button onclick='doMathThree()'>Do Math 3</button>
+    <button onclick='doMathFour()'>Do Math 4</button>
+  </div>
+  <div class="color-section">
+    <button id="c-one" class="c-btn" onclick="colorOne()">Colors</button>
+    <button class="c-two c-btn" onclick="colorTwo()">In</button>
+    <button id="c-three" class="c-btn" onclick="colorThree()">My</button>
+    <button class="c-four c-btn" onclick="colorFour()">Head</button>
+  </div>
+  <div class="bonus-section">
+    <label for="bonus" class="weird">
+      <input type="checkbox" id="bonus">
+      <div class="content">Look Mom, no JavaScript!</div>
+    </label>
+  </div>  
+</body>
+</html>

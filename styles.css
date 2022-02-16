@@ -1,0 +1,64 @@
+* {
+  font-family: helvetica;
+  color: white;
+}
+
+body {
+  background: rgb(32, 32, 32);
+  text-align: center;
+  margin: 10% 0 0 0;
+}
+
+button {
+  width: 100px;
+  height: 25px;
+  margin: 0 5px 10px 5px;
+  border: 2px solid white;
+  background: grey;
+}
+
+.c-btn {
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px black;
+}
+
+#c-one {
+  background: rgb(0, 48, 77);
+}
+
+.c-two {
+  background: rgb(37, 0, 172);
+}
+
+#c-three {
+  background: rgb(0, 140, 255);
+}
+
+.c-four {
+  background: rgb(0, 255, 242);
+}
+
+.bonus-section {
+  display: flex;
+  justify-content: center;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 440px;
+  height: 50px;
+  background: rgb(66, 0, 0);
+  margin: 5px 0 0 0;
+  border: 2px solid white;
+}
+
+#bonus:checked ~ .content {
+  height: 440px;
+  background: orange;
+}
+
+input {
+  display: none;
+}
